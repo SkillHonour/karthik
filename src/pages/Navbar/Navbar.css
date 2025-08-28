@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.overallnav{
+    height: 70px;
+    width: 100%;
+     background-color: rgba(128, 0, 128, 0.9); /* Purple with transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    position: fixed;
+    z-index: 999;
+}
+
+.overallnav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.overallnav a:hover {
+  color: #ff9800;
+  transition: 0.3s;
+}
